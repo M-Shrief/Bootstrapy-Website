@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>A complete site with Bootstrap</title>
+      <script src="https://kit.fontawesome.com/98d31088a7.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="styles.css">
+      <title>Responsive Website Design Using Bootstrap</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">M. D Nemo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+      </header>
+      <!-- Home -->
+      <div class="jumbotron jumbotron-fluid height100p banner" id="home">
+        <div class="container h100">
+          <div class="contentBox h100">
+            <div>
+              <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Lorem Ipsum</h1>
+              <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About -->
+      <section class="sec1" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="offset-sm-2 col-sm-8">
+              <div class="headerText text-center">
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">About Us</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur esse asperiores quod. Sapiente, maxime reprehenderit. Pariatur libero nobis non enim architecto totam, sed earum, reiciendis id ipsam, quam facere iusto.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Place 1 -->
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="placeBox" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                <div class="imgBx ">
+                  <img src="https://cdn.pixabay.com/photo/2016/08/11/23/48/italy-1587287_960_720.jpg" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h3>The Place Name<br><span>The Country Name</span></h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Place 2 -->
+            <div class="col-sm-4">
+              <div class="placeBox" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <div class="imgBx ">
+                  <img src="https://cdn.pixabay.com/photo/2019/03/22/19/40/meteora-4074026_960_720.jpg" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h3>The Place Name<br><span>The Country Name</span></h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Place 3 -->
+            <div class="col-sm-4">
+              <div class="placeBox" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                <div class="imgBx ">
+                  <img src="https://cdn.pixabay.com/photo/2020/05/22/14/04/landscape-5205518_960_720.jpg" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h3>The Place Name<br><span>The Country Name</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="sec2" id="services">
+        <div class="container h100">
+          <div class="contentBox h100">
+            <div>
+             <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Our Services</h2>
+              <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsam maiores dicta obcaecati accusantium ad similique eius. Eius facere modi dicta.</p>
+              <a href="#" class="btn btnD1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section class="sec3" id="pricing">
+        <div class="container">
+          <div class="row">
+            <div class="offset-sm-2 col-sm-8">
+              <div class="headerText text-center">
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Pricing</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sint rerum earum molestiae ex. Id eum beatae laborum numquam sequi, esse</p>
+              </div>
+            </div>
+
+            <!-- Place 1 -->
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="pricepost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                  <div class="imgBx">
+                    <img src="https://cdn.pixabay.com/photo/2016/08/11/23/48/italy-1587287_960_720.jpg" class="img-fluid">
+                  </div>
+                  <div class="content">
+                    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, earum? Cupiditate inventore porro error, dolorem debitis dolores neque eius? Inventore voluptate illum ipsa harum odio dolorum expedita quasi, dicta nemo.</p>
+                    <a href="#" class="btn btnD2">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Place 2 -->
+              <div class="col-sm-6">
+                <div class="pricepost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                  <div class="imgBx">
+                    <img src="https://cdn.pixabay.com/photo/2019/03/22/19/40/meteora-4074026_960_720.jpg" class="img-fluid">
+                  </div>
+                  <div class="content">
+                    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, earum? Cupiditate inventore porro error, dolorem debitis dolores neque eius? Inventore voluptate illum ipsa harum odio dolorum expedita quasi, dicta nemo.</p>
+                    <a href="#" class="btn btnD2">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Place 3 -->
+              <div class="col-sm-6">
+                <div class="pricepost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                  <div class="imgBx">
+                    <img src="https://cdn.pixabay.com/photo/2020/05/22/14/04/landscape-5205518_960_720.jpg" class="img-fluid">
+                  </div>
+                  <div class="content">
+                    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, earum? Cupiditate inventore porro error, dolorem debitis dolores neque eius? Inventore voluptate illum ipsa harum odio dolorum expedita quasi, dicta nemo.</p>
+                    <a href="#" class="btn btnD2">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Place 4 -->
+              <div class="col-sm-6">
+                <div class="pricepost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                  <div class="imgBx">
+                    <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_640.jpg" class="img-fluid">
+                  </div>
+                  <div class="content">
+                    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, earum? Cupiditate inventore porro error, dolorem debitis dolores neque eius? Inventore voluptate illum ipsa harum odio dolorum expedita quasi, dicta nemo.</p>
+                    <a href="#" class="btn btnD2">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="headerText text-center">
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Contact Us</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Lorem ipsum dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Entering Data -->
+          <div class="row clearfix">
+            <div class="offset-sm-2 col-sm-8">
+              <div class="form-grop">
+                <form data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" name="" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text" name="" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Message</label>
+                    <textarea class="form-control textarea" name=""></textarea>
+                  </div>
+                  <div class="form-group text-center">
+                    <button class="btn btnD1">Send</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="sci">
+                <li><a href="#"><i class="fab fa-facebook"></i><!-- Font Awesome --></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i><!-- Font Awesome --></a></li>
+                <li><a href="#"><i class="fab fa-google-plus"></i><!-- Font Awesome --></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i><!-- Font Awesome --></a></li>
+                </ul>
+                <p class="cpryt">© Copyright 2020 The Name|Templete by <a href="#">M. D Nemo</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <script>
+        $(document).scroll(function(){
+          $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height())
+        });
+      </script>
+  </body>
+</html>
